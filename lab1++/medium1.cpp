@@ -23,6 +23,14 @@ int main() {
         return 1;
     }
 
+    // проверяем диапазон оценки.
+    if (mark1 < 0 || mark1 > 5 ||
+        mark2 < 0 || mark2 > 5 ||
+        mark3 < 0 || mark3 > 5) {
+        std::cout << "Ошибка: оценки должны быть от 0 до 5." << std::endl;
+        return 1;
+    }
+
     // вычисление среднего балла
     double result = (mark1 + mark2 + mark3) / 3.0;
 
