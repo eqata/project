@@ -1,0 +1,44 @@
+body { 
+font-family: Arial, sans-serif; 
+background-color: #f1f2f5; 
+color: #333; 
+margin: 0; 
+padding: 30px; 
+}
+
+h1 { 
+text-align: center;          
+text-transform: uppercase; 
+color: #1a237e; 
+letter-spacing: 1px; 
+text-shadow: 1px 1px 3px rgba(48, 47, 47, 0.3);
+}
+
+.institution { 
+text-align: center; 
+font-size: 18px; 
+color: #555; 
+margin-bottom: 30px; 
+} 
+
+.card {
+    width 400px;
+    margin: 0 auto;              
+    padding: 25px;
+    background-color: #688561;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    text-align: center;
+
+}
+
+.avatar {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    border: 3px solid #1a237e;
+    object-fit: cover;
+    display: block;
+
+
+}
