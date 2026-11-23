@@ -31,7 +31,7 @@ int main() {
     std::cout << "+----------+---------------+" << std::endl;
 
     std::cout << std::fixed << std::setprecision(4);
-
+    //пишем b + eps вместо b, потому что double хранится с микропогрешностью
     for (double x = a; x <= b + eps; x += h) {
         if (std::fabs(x) < eps) {
             x = 0.0;

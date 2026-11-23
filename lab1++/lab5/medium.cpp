@@ -35,7 +35,7 @@ int main() {
 
     std::cout << std::fixed << std::setprecision(4);
 
-    // табуляция через for
+    // табуляция через for пишем b + eps вместо b, потому что double хранится с микропогрешностью
     for (double x = a; x <= b + eps; x += h) {
         // убираем -0.0000 если x попал в ноль с погрешностью
         if (std::fabs(x) < eps) {

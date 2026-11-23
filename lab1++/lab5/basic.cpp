@@ -32,7 +32,7 @@ int main() {
 
     std::cout << std::fixed << std::setprecision(4);
 
-    // цикл for
+    // цикл for пишем b + eps вместо b, потому что double хранится с микропогрешностью
     for (double x = a; x <= b + eps; x += h) {
         // проверяем деление на ноль
         if (std::fabs(x) < eps) {
