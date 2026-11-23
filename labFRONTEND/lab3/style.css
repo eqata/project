@@ -1,0 +1,171 @@
+:root {
+    --first-color: #1e3a8a;
+    --second-color: #dbeafe;
+    --bg-color: #f0f4f8;
+    --text-color: #333333;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    font-size: 1.5rem;
+    color: var(--first-color);
+}
+
+h3 {
+    font-family: Georgia, serif;
+    font-size: 1.25rem;
+    color: #1d4ed8;
+}
+
+h4 {
+    font-family: Georgia, serif;
+    font-size: 1.1rem;
+    color: #2563eb;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+ul {
+    list-style-type: square;
+}
+
+a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #1e40af;
+}
+
+a:hover {
+    color: #1d4ed8;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #ff0000;
+}
+
+header {
+    background-color: var(--first-color);
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #2563eb;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+nav ul li a:visited {
+    color: #ffffff;
+}
+
+nav ul li a:hover {
+    color: var(--second-color);
+    text-decoration: underline;
+}
+
+main {
+    background-color: #e2e8f0;
+    padding: 20px;
+    margin: 20px;
+}
+
+section {
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #93c5fd;
+}
+
+article {
+    background-color: #f8fafc;
+    padding: 15px;
+    margin-top: 10px;
+    border: 1px solid #bfdbfe;
+}
+
+aside {
+    background-color: var(--second-color);
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 2px solid var(--first-color);
+}
+
+footer {
+    background-color: var(--first-color);
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer a, footer a:visited {
+    color: var(--second-color);
+}
+
+blockquote {
+    font-style: italic;
+    padding: 10px 20px;
+    margin: 15px 0;
+    border-left: 4px solid var(--first-color);
+    background-color: #eff6ff;
+}
+
+.active {
+    color: var(--second-color);
+    text-decoration: underline;
+}
+
+.highlight {
+    background-color: var(--second-color);
+    padding: 10px;
+    border-left: 4px solid var(--first-color);
+    font-weight: bold;
+}
+
+#welcome, #bio, #aboutgroup, #literature, #sections {
+    border-top: 4px solid var(--first-color);
+}
